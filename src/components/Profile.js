@@ -9,8 +9,8 @@ const Profile = () => {
     isAuthenticated && ( 
      <div>
         <img src={user.picture} alt={user.name} />
-        <h2>{user.name}</h2>
-        <p>{user.email}</p>
+        This is name<h2>{user.name}</h2>
+        This isEmail ID <p>{user.email}</p>
         <JSONPretty data={user} />
         {/* {JSON.stringify(user, null, 2)} */}
       </div>

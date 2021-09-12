@@ -8,7 +8,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 function App() {
   const { isLoading } = useAuth0();
 
-  if (isLoading) return <div>Loading...</div>
+  if (isLoading) return <div><h1 style={{color:'red'}}>Loading...</h1></div>
 
   return (
     <>
